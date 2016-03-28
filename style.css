@@ -1,14 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster|Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+/* Source Sans Pro // Source Serif Pro // Lobster Two */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900,900italic|Source+Serif+Pro:400,700,600|Lobster+Two:400,400italic,700,700italic);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Source Serif Pro", Times, serif;
 }
 
 body {
-    padding: 30px 175px;
+    padding: 30px 150px;
 }
 
 .container {
@@ -20,7 +22,6 @@ body {
 
 header {
     width: 100%;
-
 }
 
 .logo {
@@ -44,10 +45,6 @@ nav ul li {
 
 nav ul li:nth-child(6) {
     margin-right: 8px;
-}
-
-section {
-
 }
 
 .details {
@@ -74,50 +71,70 @@ section {
 
 .directions img {
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .directions p {
-     text-indent: 20px;
+     text-indent: 30px;
+     margin-bottom: 20px;
+     color: #999;
 }
 
 .ingredients {
-
+    background-image: url("img/background-list.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height:400px;
 }
 
 .columnone {
-
+    width: 45%;
+    display: inline-block;
 }
 
 .columntwo {
-
-}
-
-footer {
-
+    width: 45%;
+    display: inline-block;
 }
 
 .avatar {
-
+    display: inline-block;
+    width: 71px;
+    margin-right: 14px;
 }
 
 .bio {
-
+    display: inline-block;
+    width: calc(100% - 90px - 180px);
 }
 
 .sharebutton {
+    width: 165px;
+    display: inline-block;
+    padding: 15px 28px;
+    background-color: #CC5029;
+    float:right;
+}
 
+.sharebutton a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .copyright {
-
+    color: #999;
+    font-size: 12px;
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 h1 {
-    font-family: "Lobster", cursive;
+    font-family: "Lobster Two", cursive;
     line-height: 1em;
     letter-spacing: 1px;
 }
