@@ -42,24 +42,42 @@ nav ul li {
     display: inline-block;
 }
 
+nav ul li:nth-child(6) {
+    margin-right: 8px;
+}
+
 section {
 
 }
 
 .details {
-
+    width: calc(100% - 55px);
+    display: inline-block;
 }
 
 .print {
+    width: 50px;
+    display: inline-block;
+}
 
+.print img {
+    display: inline-block;
+}
+
+.print h6 {
+    display: inline-block;
 }
 
 .directions {
-
+    margin-top: 20px;
 }
 
 .directions img {
     width: 100%;
+}
+
+.directions p {
+     text-indent: 20px;
 }
 
 .ingredients {
@@ -105,8 +123,8 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 h3 {
@@ -125,7 +143,10 @@ h5 {
 }
 
 h6 {
-
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 12px;
+    color: #999;
 }
 
 p {
