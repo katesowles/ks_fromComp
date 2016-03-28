@@ -9,28 +9,40 @@
     font-family: "Source Serif Pro", Times, serif;
 }
 
-body {
-    padding: 30px 150px;
-}
-
-#overlay {
+/*body {
     opacity: 1;
-    transition: 2s opacity;
+    transition: opacity 2s;
+
 }
-#overlay.fade-out {
+body.fade-out {
     opacity: 0;
     transition: none;
+}*/
+
+
+body {
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
 }
+
+body.fade {
+    opacity: 1;
+ }
 
 .container {
     width: 100%;
     max-width: 1000px;
     min-width: 350px;
     margin: 0 auto;
+    /*padding-left:  150px;
+    padding-right:  150px;*/
 }
 
 header {
     width: 100%;
+    margin-top: 60px;
 }
 
 .logo {
@@ -122,7 +134,17 @@ li input[type=checkbox]:checked + label {
 }
 
 .columnone {
-    margin-right: 10%;
+    margin-right: 9%;
+}
+
+.btn {
+    padding: 15px 25px;
+    background-color: #CC5029;
+    float:right;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 auto;
 }
 
 .avatar {
