@@ -8,8 +8,14 @@
 }
 
 body {
-    padding: 100px;
+    padding: 30px 175px;
+}
+
+.container {
+    width: 100%;
     max-width: 1000px;
+    min-width: 350px;
+    margin: 0 auto;
 }
 
 header {
@@ -17,11 +23,74 @@ header {
 
 }
 
+.logo {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+hgroup {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
 section {
 
 }
 
+.details {
+
+}
+
+.print {
+
+}
+
+.directions {
+
+}
+
+.directions img {
+    width: 100%;
+}
+
+.ingredients {
+
+}
+
+.columnone {
+
+}
+
+.columntwo {
+
+}
+
 footer {
+
+}
+
+.avatar {
+
+}
+
+.bio {
+
+}
+
+.sharebutton {
+
+}
+
+.copyright {
 
 }
 
@@ -31,10 +100,13 @@ h1, h2, h3, h4, h5, h6, p {
 
 h1 {
     font-family: "Lobster", cursive;
+    line-height: 1em;
+    letter-spacing: 1px;
 }
 
 h2 {
-
+    font-size: 36px;
+    font-weight: 600;
 }
 
 h3 {
@@ -46,9 +118,28 @@ h4 {
 }
 
 h5 {
-
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 12px;
 }
 
 h6 {
+
+}
+
+p {
+
+}
+
+.border {
+    height: 15px;
+    width: 100%;
+    background-color: #ddd;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.logoborder {
 
 }
