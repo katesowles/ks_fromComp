@@ -1,6 +1,6 @@
-/* Source Sans Pro // Source Serif Pro // Lobster Two */
+/* Source Sans Pro // Source Serif Pro // Lobster Two // Shadows Into Light Two */
 
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900,900italic|Source+Serif+Pro:400,700,600|Lobster+Two:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300italic,300,400italic,600,600italic,700,700italic,900,900italic|Source+Serif+Pro:400,700,600|Lobster+Two:400,400italic,700,700italic|Shadows+Into+Light+Two);
 
 * {
     margin: 0;
@@ -84,18 +84,36 @@ nav ul li:nth-child(6) {
     background-image: url("img/background-list.png");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 50px;
-    height:400px;
+    padding: 45px;
+    height: 400px;
+}
+
+.columnone, .columntwo {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ingredients li label {
+    font-family: "Shadows Into Light Two", cursive;
+    line-height: 1.7em;
+    font-size: 20px;
+}
+
+.columnone li, .columntwo li {
+    list-style-type: none;
+}
+
+.columnone li input, .columntwo li input {
+    margin-right: 10px;
+}
+
+li input[type=checkbox]:checked + label {
+    text-decoration: line-through;
 }
 
 .columnone {
-    width: 45%;
-    display: inline-block;
-}
-
-.columntwo {
-    width: 45%;
-    display: inline-block;
+    margin-right: 10%;
 }
 
 .avatar {
@@ -112,7 +130,7 @@ nav ul li:nth-child(6) {
 .sharebutton {
     width: 165px;
     display: inline-block;
-    padding: 15px 28px;
+    padding: 15px 25px;
     background-color: #CC5029;
     float:right;
 }
@@ -145,7 +163,8 @@ h2 {
 }
 
 h3 {
-
+    font-family: "Source Serif Pro", Times, serif;
+    margin-bottom: 10px;
 }
 
 h4 {
@@ -179,5 +198,19 @@ p {
 }
 
 .logoborder {
+    margin: 50px auto;
+    height: 33px;
+}
 
+.logoborder img {
+    padding: 5px;
+}
+
+.lineborder {
+    border-bottom: 1px solid #999;
+    display: inline-block;
+    width: calc(50% - 30px);
+    height: 5px;
+    position: relative;
+    bottom: 20px;
 }
