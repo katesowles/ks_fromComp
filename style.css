@@ -9,7 +9,7 @@
     font-family: "Source Serif Pro", Times, serif;
 }
 
- /*.animated {
+ .animated {
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
     -webkit-animation-fill-mode: both;
@@ -37,8 +37,7 @@
  .fadeIn {
      -webkit-animation-name: fadeIn;
      animation-name: fadeIn;
- }*/
-
+ }
 
 .container {
     width: 100%;
